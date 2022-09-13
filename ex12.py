@@ -18,11 +18,11 @@
 
 import re
 
-text = "Berlin is a world city of culture, politics, media and science."
+# text = "Berlin is a world city of culture, politics, media and science."
 
-pattern = "\s"
-x = re.search(pattern,text)
-print(x)
+# pattern = "\s"
+# x = re.search(pattern,text)
+# print("The first white-space character is located at position: ", x)
 
 
 ### Task 2
@@ -32,10 +32,10 @@ print(x)
 # contiguous with Potsdam, Brandenburg's capital.` . 
 # Then search for the word `Frankfurt` in the string . 
 
-text1 = "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
-pattern1 = "[Frankfurt]"
-y = re.search(pattern1, text1)
-print(y)
+# text1 = "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
+# pattern1 = "[Frankfurt]"
+# y = re.search(pattern1, text1)
+# print(y)
 
 
 ### Task 3
@@ -43,10 +43,10 @@ print(y)
 #Create a variable called `text` to store the data: 
 # `Berlin is a city of culture.` . Replace the spaces with a hyphen.
 
-text2 = "Berlin is a city of culture."
-pattern2 = r"\s"
-z = re.sub(pattern2,"-",text2 )
-print(z)
+# text2 = "Berlin is a city of culture."
+# pattern2 = r"\s"
+# z = re.sub(pattern2,"-",text2 )
+# print(z)
 
 
 ### Task 4
@@ -68,10 +68,10 @@ print(a)
 # an upper case "B". Print the position (start- and end-position) 
 # of the first match occurrence. 
 
-text4 = "Berlin is a city of culture."
-pattern4 = "[B]"
-b = re.match(pattern4, text4)
-print(b)
+# text4 = "Berlin is a city of culture."
+# pattern4 = "[B]"
+# b = re.match(pattern4, text4)
+# print(b)
 
 
 ### Task 6

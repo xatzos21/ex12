@@ -59,3 +59,25 @@ text3 = "Berlin is a city of culture."
 pattern3 = "[in]"
 a = re.match(pattern3, text3)
 print(a)
+
+
+### Task 5
+
+#Use the `text` variable from the previous task. 
+# Create a regular expression to look for any word that starts with 
+# an upper case "B". Print the position (start- and end-position) 
+# of the first match occurrence. 
+
+text4 = "Berlin is a city of culture."
+pattern4 = "[B]"
+b = re.match(pattern4, text4)
+print(b)
+
+
+### Task 6
+
+#Create a variable called `text` to store the data: 
+# `The rain in Spain.`. Count how many times the subphrase `ai` appears 
+# in the string. Print the results on the screen.
+
+text5 = "The rain in Spain."
